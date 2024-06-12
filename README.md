@@ -66,21 +66,23 @@ You can use sample Website "Website" folder contents (provided in this repositor
 * images
 
 <br/>
-<img src="Documentation/Images/Step2-UploadContents.PNG" alt="Upload Contents"/>
+<img src="Documentation/Images/Step 2 -Upload content of your website.png" alt="Upload Contents"/>
 
 
 ### Step 3 - Add a Bucket Policy to allow Public Read Access
 
-Go to Permissions Tab and update Public Access Setting:
+Go to Permissions Tab and update Public Access Setting.
 
-Uncheck Manage public bucket policies:
+Uncheck "Block all public access".
 
-* Uncheck - Block new public bucket policies (Recommended)
+Enabling Block Public Access helps protect your resources by preventing public access from being granted through the resource policies or access control lists (ACLs) that are directly attached to S3 resources. In addition to enabling Block Public Access, carefully inspect the following policies to confirm that they do not grant public access:
 
-* Uncheck - Block public and cross-account access if bucket has public policies (Recommended) 
+* Identity-based policies attached to associated AWS principals (for example, IAM roles).
+
+* Resource-based policies attached to associated AWS resources (for example, AWS Key Management Service (KMS) keys). 
 
 <br/>
-<img src="Documentation/Images/Step3-BucketPolicy-A.PNG" alt="Create Bucket Policy"/>
+<img src="Documentation/Images/Step 3-Public access settings.png" alt="Create Bucket Policy"/>
 
 Add following bucket policy. Replace [YOUR_BUCKET_NAME] with name of your bucket policy.
 
