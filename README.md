@@ -14,7 +14,7 @@ You can start by creating an Amazon S3 bucket, enabling the Amazon S3 Website ho
 **Amazon CloudFront**: You can also use Amazon CloudFront to enable your website to load quickly. Amazon CloudFront will create a content delivery network (CDN) that hosts your website content in close proximity to your users.
 
 <br/>
-<img src="Documentation/Images/S3WebsiteHosting-Architecture.PNG" alt="S3 Static Website Hosting"/>
+<img src="C:\Users\sanat\Documents\Varsha AWS\github\mini-aws-s3-website-project\Documentation\Images\S3WebHosting-Architecture.jpg" alt="S3 Static Website Hosting"/>
 
 
 ## Advantages of Hosting Website on S3
@@ -51,7 +51,7 @@ When you first create an S3 bucket, you select the AWS Region in which the files
 * Leave blank this field "Copy Settings from an existing bucket".
 
 <br/>
-<img src="Documentation/Images/Step1-CreateBucket.PNG" alt="Create Bucket"/>
+<img src="Documentation/Images/Step 1-Create bucket.png" alt="Create Bucket"/>
 
 ### Step 2 - Upload Content of your Website
 
