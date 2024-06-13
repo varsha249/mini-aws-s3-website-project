@@ -102,8 +102,6 @@ Add following bucket policy. Replace [YOUR_BUCKET_NAME] with name of your bucket
 
 Click 'Save' button to save changes.
 
-<br/>
-<img src="Documentation/Images/Step3-BucketPolicy-B.PNG" alt="Create Bucket Policy"/>
 
 ### Step 4 - Enable Website Hosting
 In order to serve assets via url, you need to enable Website Hosting
@@ -114,10 +112,8 @@ Note the endpoint.
 http://{bucket-name}.s3-website-{AWS-Region}.amazonaws.com
 
 <br/>
-<img src="Documentation/Images/Step4-A.PNG" alt="Enable Website Hosting"/>
+<img src="Documentation/Images/Step 3 -Static Website Hosting.png" alt="Enable Website Hosting"/>
 
-<br/>
-<img src="Documentation/Images/Step4-B.PNG" alt="Enable Website Hosting"/>
 
 ### Step 5 - Access Your Website (Testing/Validation)
 
@@ -125,7 +121,7 @@ Access the site in browser:
 http://{bucket-name}.s3-website-{AWS-Region}.amazonaws.com
 
 For Example:
-<a href="http://pwdgen.s3-website-us-east-1.amazonaws.com/">http://pwdgen.s3-website-us-east-1.amazonaws.com/</a>
+<a href="http://myfirstbucket-varsha.s3-website-us-east-1.amazonaws.com">http://myfirstbucket-varsha.s3-website-us-east-1.amazonaws.com/</a>
 
 <br/>
 <img src="Documentation/Images/SampleWebsite.PNG" alt="Sample Static Website"/>
